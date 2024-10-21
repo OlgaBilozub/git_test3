@@ -1,30 +1,26 @@
+
 ## commands
 
-git init - 
+git branch -M main - переименование главной ветки в main
+git remote add origin ... <информация о репозитории> - привязка к удаленному репозиторию
 
-git add . -
+git init - инициализация репозитория
+git add . - индексация всех файлов
+git commit -m "init" - коммит с сообщением
+git push origin <имя ветки удаленного репозитория> - добавить код в ветку на удаленном репозитории
 
-git commit -m  "......." -
-
-git branch -M main  -
-
-git remote add origin ...  <information>  -
-
-
-
-git log -
-
-git log --oneline  -
-
-
-
-
-
-
+git log - полная история коммитов (q - чтобы выйти из нее на MAC)
+git log --oneline - история коммитов без доп информации коротко
 
 
 
 
 ###
+.gitignore - файл с исключениями для git, которые не проходят в коммит
 
-.gitignore -
+
+
+
+
+
+
